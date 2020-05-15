@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+/* header, main, footer {
+  padding-left: 300px;
+  }
+ 
+ @media only screen and (max-width : 992px) {
+    header, main, footer {
+    padding-left: 0;
+    }
+ } */
+
+ .sidenav.sidenav-fixed {
+  top: 65px;
+}
+
+.col.grid-example {
+  border: 1px solid #eee;
+  margin: 7px 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  background-color: tomato;
+  color: white;
+  padding: 0;
+}
+
+.container.demo-container {
+  border-left: 100px;
+  padding-left: 160px;
+}
+

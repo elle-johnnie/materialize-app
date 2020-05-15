@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import NavBar from './components/Layout/navbar';
+import SideNav from './components/Layout/sidenav';
+import HeaderSizes from './components/Dashboard/headersizes';
+import Alignment from './components/Dashboard/alignment';
+import Rainbow from './components/Dashboard/rainbow';
+import ScreenSize from './components/Dashboard/screensize';
+import Buttons from './components/Dashboard/buttons';
+import Grid from './components/Dashboard/grid';
+import Icons from './components/Dashboard/icons';
+import Other from './components/Dashboard/other';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render () {
+    return (
+      <div className="App">
+      <BrowserRouter>
+        <NavBar />
+        <SideNav />
+        <Switch>
+          <Route path='/headersizes' component={HeaderSizes} />
+          <Route path='/alignment' component={Alignment} />
+          <Route path='/rainbow' component={Rainbow} />
+          <Route path='/screen-size' component={ScreenSize} />
+          <Route path='/buttons' component={Buttons} />
+          <Route path='/grid' component={Grid} />
+          <Route path='/icons' component={Icons} />
+          <Route path='/other' component={Other} />
+        </Switch>
+      </BrowserRouter>
+      </div>
+    )
+  }
 }
 
 export default App;
