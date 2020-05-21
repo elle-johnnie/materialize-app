@@ -17,10 +17,10 @@ class SideNav extends Component {
             <div className="wrapper">
                 <ul id="slide-out" className="sidenav sidenav-fixed">
                 <li><div className="user-view">
-                        <div className="background center fit">
-                            <img src="images/backdrop.png" alt="arid landscape eastern oregon"/>
+                        <div className="background">
+                            <img src="images/nano.jpg" alt="crashing wave"/>
                         </div>
-                        <a href="#user"><img className="circle z-depth-5" alt="johnnie portrait" src="images/photo.png"/></a>
+                        <a href="#user"><img className="circle z-depth-5 profile" alt="johnnie portrait" src="images/photo.png"/></a>
                         <a href="#name"><span className="name">Johnnie</span></a>
                         <a href="#email"><span className="email">johnniecodes@gmail.com</span></a>
                     </div></li>
@@ -36,8 +36,7 @@ class SideNav extends Component {
                     <li><NavLink to="/modal" className="waves-effect">Modal</NavLink></li>
                     <li><div className="divider" /></li>
                     <li><a className="subheader">Subheader</a></li>
-                    <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
-                </ul>
+                 </ul>
                 
             </div>
         );

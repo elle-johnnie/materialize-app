@@ -3,7 +3,7 @@ import React from 'react'
 function Modal() {
     return (
         <div class="container demo-container">
-            <h2>Modals</h2>
+            <h2>Oh My Modal</h2>
 
             <a class="btn orange modal-trigger" href="#terms">Terms & Conditions</a>
 

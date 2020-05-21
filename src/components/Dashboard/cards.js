@@ -3,7 +3,7 @@ import React from 'react'
 function Cards() {
     return (
         <div class="container demo-container">
-            <h2>Cards</h2>
+            <h2>Justa Coupla Cards</h2>
             <div class="row">
                 <div class="col s12 l6">
                     <div class="card">
