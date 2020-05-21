@@ -67,3 +67,11 @@
   padding-left: 160px;
 }
 
+.shadow-example {
+  margin: 10px;
+  border: 3px;
+  height: 100px;
+  background-color: tomato;
+  color:white;
+  text-align: center;
+}

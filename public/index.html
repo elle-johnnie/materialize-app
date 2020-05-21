@@ -47,15 +47,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <!--Import jQuery before materialize.js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- <script>
-      (function($){
-        $(function(){
-
-          $('.button-collapse').sideNav();
-
-        }); // end of document ready
-      })(jQuery); // end of jQuery name space
-    </script> -->
+    <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+    </script>
+  
   </body>
 </html>

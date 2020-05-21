@@ -9,7 +9,9 @@ import ScreenSize from './components/Dashboard/screensize';
 import Buttons from './components/Dashboard/buttons';
 import Grid from './components/Dashboard/grid';
 import Icons from './components/Dashboard/icons';
-import Other from './components/Dashboard/other';
+import Shadows from './components/Dashboard/shadows';
+import Cards from './components/Dashboard/cards';
+import Modal from './components/Dashboard/modal';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -27,7 +29,9 @@ class App extends Component {
           <Route path='/buttons' component={Buttons} />
           <Route path='/grid' component={Grid} />
           <Route path='/icons' component={Icons} />
-          <Route path='/other' component={Other} />
+          <Route path='/shadows' component={Shadows} />
+          <Route path='/cards' component={Cards} />
+          <Route path='/modal' component={Modal} />
         </Switch>
       </BrowserRouter>
       </div>

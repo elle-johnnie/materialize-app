@@ -21,8 +21,8 @@ class SideNav extends Component {
                             <img src="images/backdrop.png" alt="arid landscape eastern oregon"/>
                         </div>
                         <a href="#user"><img className="circle z-depth-5" alt="johnnie portrait" src="images/photo.png"/></a>
-                        <a href="#name"><span className="blue-text name">Johnnie</span></a>
-                        <a href="#email"><span className="blue-text email">johnniecodes@gmail.com</span></a>
+                        <a href="#name"><span className="name">Johnnie</span></a>
+                        <a href="#email"><span className="email">johnniecodes@gmail.com</span></a>
                     </div></li>
                     <li><NavLink to="/headersizes" className="waves-effect">Head's Up!</NavLink></li>
                     <li><NavLink to="/alignment" className="waves-effect">Which side are you on?</NavLink></li>
@@ -31,6 +31,9 @@ class SideNav extends Component {
                     <li><NavLink to="/buttons" className="waves-effect">Push My Buttons</NavLink></li>
                     <li><NavLink to="/grid" className="waves-effect">The Grid Iron</NavLink></li>
                     <li><NavLink to="/icons" className="waves-effect">Iconic</NavLink></li>
+                    <li><NavLink to="/shadows" className="waves-effect">In the Shadows</NavLink></li>
+                    <li><NavLink to="/cards" className="waves-effect">Cards</NavLink></li>
+                    <li><NavLink to="/modal" className="waves-effect">Modal</NavLink></li>
                     <li><div className="divider" /></li>
                     <li><a className="subheader">Subheader</a></li>
                     <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
